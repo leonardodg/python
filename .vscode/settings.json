@@ -1,6 +1,8 @@
 {
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "explorer.compactFolders": false,
-    "code-runner.runInTerminal": false,
-    "code-runner.ignoreSelection": false
+    "code-runner.runInTerminal": true,
+    "code-runner.ignoreSelection": false,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.defaultInterpreterPath": "python"
 }

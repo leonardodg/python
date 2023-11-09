@@ -7,6 +7,6 @@ services:
       context: ./
       dockerfile: ./docker/build/python.Dockerfile
     volumes:
-      - ./src:/usr/src/app
+      - ./src:/usr/app
     env_file:
       - .env

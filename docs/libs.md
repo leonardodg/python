@@ -9,14 +9,21 @@ $ apt-get install -y zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev llvm \
 ```
   
 # PIP
-> check OK
+> listar modulos instalados
 ```
 $ pip freeze
+```
+
+> instalar modulos instalados
+> Obs.: Ambiente virtual ativo
+```
+$ pip freeze -r .\requirements.txt
 ```
 
 > Atulizar PIP
 ```
 $ pip install pip --upgrade
+$ python -m pip install --upgrade pip
 ```
 
 # Install lib Python ( Extra ) 
@@ -30,3 +37,14 @@ $ pip install name-lib
 ```
 curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
 ``` -->
+
+
+Verificar local instalação do python
+> powerShell
+ gcm python -Syntax
+
+ > verificar qual python estou utilizando no ambiente virtual 
+> Retuna a pasta de instalação do python
+```
+$  which python
+```
